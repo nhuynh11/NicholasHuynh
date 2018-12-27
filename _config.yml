@@ -34,8 +34,7 @@ title: Nicholas Huynh
 short_description: Nicholas Huynh
 description: >- # this means to ignore newlines until "baseurl:"
   I am a computer engineering undergraduate student at the University of Florida. Expected graduation in December 2019.
-baseurl: "/NicholasHuynh"
-url: "https://nhuynh11.github.io"
+baseurl: "/"
 
 # google services
 ganalytics:
