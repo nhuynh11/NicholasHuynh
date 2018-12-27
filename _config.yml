@@ -13,20 +13,63 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Nicholas Huynh
-email: nphuynh11@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My portfolio site.
-baseurl: "/NicholasHuynh" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: none
-github_username:  nhuynh11
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# title: Nicholas Huynh
+# email: nphuynh11@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   My portfolio site.
+# baseurl: "/NicholasHuynh" # the subpath of your site, e.g. /blog
+# url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: none
+# github_username:  nhuynh11
+
+# # Build settings
+# markdown: kramdown
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+theme: jekyll-theme-mrwooo-solid-state
+title: Nicholas Huynh
+short_description: Nicholas Huynh
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a computer engineering undergraduate student at the University of Florida. Expected graduation in December 2019.
+baseurl: "/"
+
+# google services
+ganalytics:
+gtagmanager:
+gmapsapikey:
+
+# facebook
+fpixel:
+
+# collections
+collections:
+  main:
+    output: true
+    permalink: /main/:name
+
+  defaults:
+  - scope:
+      path: 'assets/images'
+      type: 'main'
+  values:
+    image: true
+
+# contacts
+address: >-
+  1891 Vina Ct. Chuluota, FL 32766
+phone: (407) 739-3424
+email: nphuynh11@gmail.com
+  
+# social
+linkedin: linkedin.com/nhuynh11
+github: github.com/nhuynh11
+
+# copyright
+owner: Company
+version: 0.0.1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

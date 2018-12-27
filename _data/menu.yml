@@ -1,0 +1,4 @@
+main_menu: Menu
+link:
+- title: About
+  url: about.html
