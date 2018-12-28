@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: post
+title: My blog
+permalink: /blog/
 ---
 <!DOCTYPE HTML>
 <!--
@@ -10,7 +12,7 @@ layout: page
 <html>
 	{% include head.html %}
 	<body class="is-preload">
-			{% if site.gtagmanager %}
+			{% if gtagmanager %}
 
 			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -34,23 +36,17 @@ layout: page
 						<header>
 							<div class="inner">
 								<h2>{{ page.title }}</h2>
-								<p>{{ page.excerpt }}</p>
 							</div>
 						</header>
 
 						<!-- Content -->
 							<div class="wrapper">
 								<div class="inner">
-									
-									{{ content }}
 
-									<!-- <h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p> -->
-
-									<!-- <section class="features">
-										
+									<section class="features">
+										<!-- Feed -->
 										{% include feed.html %}
-									</section> -->
+									</section>
 
 								</div>
 							</div>

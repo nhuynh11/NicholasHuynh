@@ -2,3 +2,5 @@ main_menu: Menu
 link:
 - title: About
   url: about.html
+- title: Resume
+  url: resume.html
