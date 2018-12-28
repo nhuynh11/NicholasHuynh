@@ -5,6 +5,6 @@ description:
 homepage: true
 og-title:
 og-type:
-og-image:
+og-image: /assets/images/myface.png
 ---
 
