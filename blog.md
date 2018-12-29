@@ -1,5 +1,6 @@
 ---
 layout: blog
 title: My Blog
-permalink: blog.html
+description: See what I've been up to.
+permalink: /blog/
 ---

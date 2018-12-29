@@ -1,6 +1,3 @@
----
-layout: blog
----
 <!DOCTYPE HTML>
 <!--
 	Solid State by HTML5 UP
@@ -8,9 +5,9 @@ layout: blog
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	{% include head.html %}
-	<body class="is-preload">
-			{% if gtagmanager %}
+    {% include head.html %}
+    <body class="is-preload">
+			{% if site.gtagmanager %}
 
 			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -27,33 +24,38 @@ layout: blog
 				{% include header.html %}
 
 				<!-- Menu -->
-				{% include menu.html %}
+				{% include menu.html %}		
 
-				<!-- Wrapper -->
+					<!-- Wrapper -->
 					<section id="wrapper">
-						<header>
-							<div class="inner">
-								<h2>{{ page.title }}</h2>
-							</div>
+					<header>
+						<div class="inner">
+						<a href="{{ page.category | relative_url }}"><h2>{{ page.title }}</h2></a>
+						<p>{{ page.description }} </p>
+						</div>
+					</header>
+					<!-- Content -->
+					<div class="wrapper">
+						<div class="inner">
+						{% assign posts = site.posts %}
+						{% for post in posts %}
+						{% if post.title != 404 %}
+						<a href="{{ post.url | relative_url }}">
+						<header class="major">
+							<h1>{{ post.title }}</h1>
 						</header>
-
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
-
-									<section class="features">
-										<!-- Feed -->
-										{% include feed.html %}
-									</section>
-
-								</div>
-							</div>
-
+						{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+						{% if post.date %}<p>{{ post.date | date_to_string }}</p>{% endif %}
+						<p>{{ post.content }}</p>
+						{% endif %}
+						{% endfor %}
+						</a>
+						</div>
+					</div>
 					</section>
-
-				<!-- Footer -->
-				{% include footer.html %}
-
+                <!-- Footer -->
+                {% include footer.html %}
+                
 			</div>
 
 		<!-- Scripts -->
