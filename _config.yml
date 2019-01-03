@@ -33,7 +33,7 @@ theme: jekyll-theme-mrwooo-solid-state
 title: Home
 short_description: Nicholas Huynh
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a computer engineering undergraduate student at the University of Florida. Expected graduation in December 2019. Click <a href="https://nicholashuynh.me/resume.html">here</a> to download my resume.
+  I'm a computer engineering undergraduate student at the University of Florida. Expected graduation in December 2019. Click <a href="/assets/resume.pdf" download>here</a> to download a copy of my resume.
 baseurl: "/"
 
 # google services
