@@ -3,6 +3,7 @@ layout: page
 title: Resume
 permalink: resume.html
 ---
-<div style="margin: auto; width: 50%; padding: 10px;">
-<iframe src="https://nicholashuynh.me/assets/resume.pdf" style="width:600px; height:800px;" frameborder="0"></iframe>
+<a href="/assets/resume.pdf" download>Download</a>
+<div style="margin: auto; ">
+<iframe src="https://nicholashuynh.me/assets/resume.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
 </div>
