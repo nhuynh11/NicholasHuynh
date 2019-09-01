@@ -5,7 +5,6 @@ description: This is my work experience
 permalink: /post/experience/
 image: /assets/images/engine.PNG
 ---
-# A Look at My Relevant Work Experience
 
 # GE Aviation, Systems division (Smiths Aerospace)
 
