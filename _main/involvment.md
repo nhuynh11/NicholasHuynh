@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Involvement and Volunteering
-description: My involvment and volunteer work
+description: My involvment and volunteer work.
 permalink: /post/involvement/
 image: /assets/images/ace.PNG
-excerpt: This is what I do outside of work
+excerpt: My involvment and volunteer work.
 ---
 
 # Outreach Committee Member
