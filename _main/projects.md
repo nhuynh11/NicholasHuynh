@@ -13,7 +13,7 @@ This is my Senior Design project for the duration of Fall 2019. For this project
 
 # Aquarium Manager (active development)
 This is a personal IOT project I've been working on.  The goal of this project is to accurately measure and monitor home aquarium data to make maintenance easier for the aquarium owner. Currently the web application graphs temperature data taken every 30 minutes from the aquarium.  This is only the first function of the system completed.  Further developments may involve an automatic fish feeder, ph level monitoring, and water level monitoring. The hardware used in this project: Arduino, Raspberry Pi, temperature sensor. The software used: C++, Python, PHP, SQLite HTML, CSS.
-<img src="/assets/images/aqua_temps.png" alt="Temperature Graph" width="50%"/>
+<img src="/assets/images/aqua_temps.png" alt="Temperature Graph" width="400"/>
 
 # UF Free Food
 This was a five person group project for my Software Engineering class.  For this project my team designed and developed a web application that displayed free food opportunities on the University of Florida campus.  Students with user accounts are able to create, view, update, and delete free food listings.  The main API used for this application was the Google Maps API.  The methodology used for the duration of the project lifecycle was Agile. Some of the technologies used include: MongoDB, Express.js, Angular.js, and Node.js. 
