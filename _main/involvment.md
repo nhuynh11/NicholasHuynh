@@ -12,4 +12,6 @@ As a member of the Association of Computer Engineers (ACE) at the University of 
 
 # Involvement and Fundraising Chair
 As the Involvement and Fundraising Chair for Gator Powerlifting, I discussed new ideas for supporting team atmosphere and fundraising. In the Fall of 2016 I trained for and competed in a USAPL collegiate powerlifting meet.
-![Team Photo](/assets/images/powerlifting.png)
+<br>
+<img src="/assets/images/powerlifting.jpg" alt="Team Photo" style="width:auto; height:auto;">
+<br>
